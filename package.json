@@ -1,12 +1,16 @@
 {
-  "name": "sachin",
+  "name": "tailwind",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i src/style.css -o public/styles.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwindcss":"npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.8"
+  }
 }
