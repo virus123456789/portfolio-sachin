@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+     @font-face {
+         font-family: "Lexend";
+         font-feature-settings: 'salt' on, 'liga' off;
+         src: url('/public/font/Lexend-Regular.ttf') format('ttf');
+     }
+}
+
+.bg-grid{
+    background: repeating-linear-gradient(
+        90deg,
+        #fff,
+        #fff 19.9%,
+        #E5E5E5 20%,
+        #fff 20.1%
+    );
+}
+
+.gradient-background{
+    background: -webkit-linear-gradient(112.28deg, #ED8001 -12.11%, #FF4AC2 106.46%);
+}
+
+.c-bg{
+    background: -webkit-linear-gradient(112.28deg, #ED8001 -12.11%, #FF4AC2 106.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-stroke-only{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.section{
+    scroll-behavior: smooth;
+}
+
+.main{
+  
+}
